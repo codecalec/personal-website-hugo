@@ -5,13 +5,13 @@
     <title>{{ .Page.Title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {{ with resources.Get "fonts/DovesTypeHeadline-Regular.ttf" }}
-      <link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous">
-    {{ end }}
+    <!-- {{ with resources.Get "fonts/DovesTypeHeadline-Regular.ttf" }} -->
+    <!--   <link rel="preload" href="{{ .RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous"> -->
+    <!-- {{ end }} -->
 
     <link rel="preload" href="/style.css" as="style" />
-    <!-- {{ $font := resources.Get "fonts/DovesTypeHeadline-Regular.ttf" }} -->
-    <!-- <link rel="preload" href="{{ $font.RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous"> -->
+    {{ $font := resources.Get "fonts/DovesTypeHeadline-Regular.ttf" }}
+    <link rel="preload" href="{{ $font.RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/style.css">
     </head>
@@ -19,15 +19,14 @@
   <body>
     <!-- Code that all your templates share, like a header -->
     <div id="main">
-    </div>
         <nav class="nav">
         <div>
-            <h3 style="color:white">Alex Veltman</h3>
+            <h1 style="color:white">Alex Veltman</h1>
         </div>
-        <ul class="nav-links accent">
-            <li><a href="/">About</a></li>
-            <li><a href="/research">Research</a></li>
-            <li><a href="/contact">Contact</a></li>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     {{ block "main" . }}
