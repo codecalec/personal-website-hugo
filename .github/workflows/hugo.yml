@@ -10,7 +10,7 @@ env:
   HUGO_VERSION: 0.165.0
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -30,6 +30,14 @@ jobs:
         run: |
           hugo --gc --minify
 
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/upload-artifact@v7
+      with:
+        name: site
+        path: public/
       # - name: Deploy via rsync over SSH
       #   uses: burnett01/rsync-deployments@7.0.1
       #   with:
