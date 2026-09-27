@@ -44,6 +44,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: site
+          path: public/
           
       - name: Print artifact
         shell: bash
