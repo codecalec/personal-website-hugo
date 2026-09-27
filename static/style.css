@@ -97,7 +97,7 @@ pre {
 /* ===== LAYOUT ===== */
 .container {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 .row {

@@ -24,14 +24,17 @@
             <h1 style="color:white">Alex Veltman</h1>
         </div>
         <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/research">Research</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/#contact">Contact</a></li>
         </ul>
     </nav>
+    <div class="container">
     {{ block "main" . }}
       <!-- The part of the page that begins to differ between templates -->
     {{ end }}
+    </div>
     </div>
   </body>
 </html>
