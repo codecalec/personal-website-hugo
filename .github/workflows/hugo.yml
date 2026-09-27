@@ -45,6 +45,11 @@ jobs:
         with:
           name: site
           
+      - name: Print artifact
+        shell: bash
+        run: |
+          ls -la public/
+          
       - name: Deploy via rsync over SSH
         uses: burnett01/rsync-deployments@7.0.1
         with:
