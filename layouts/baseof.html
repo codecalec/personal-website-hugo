@@ -14,7 +14,11 @@
     <link rel="preload" href="{{ $font.RelPermalink }}" as="font" type="font/ttf" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/style.css">
-    </head>
+
+    {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+    {{ end }}
+
   </head>
   <body>
     <!-- Code that all your templates share, like a header -->
