@@ -2,8 +2,6 @@
 draft = false
 title = 'Research'
 +++
-# Research
-
 ## Written
 - MSc by Research Thesis: A search for tWZ production at the ATLAS experiment [[Link]](https://dev.alexveltman.com/static/research/masters/AlexVeltmanMastersThesis.pdf)
 - BSc Honours Thesis: Constraining the Standard Model Effective Field Theory with 2D differential cross section of top quark pair production [[Link]](https://dev.alexveltman.com/static/research/honours/AlexVeltmanHonoursProject.pdf)
@@ -39,6 +37,9 @@ tWZ EB request
 [[Talk]](https://indico.cern.ch/event/1290910/contributions/5426119/attachments/2656081/4599931/tWZ_EB_request_May_2023-1.pdf)
 
 ## Posters
+### Poster session at ATLAS collaboration week (Jun. 2026)
+Displaced $tau_{had}$ in Run 3
+[[Restricted link]](https://indico.cern.ch/event/1649710/contributions/7058235/attachments/3359909/6026915/aveltman_atlasweek.pdf)
 
 ### Poster session at 164th LHCC meeting (Nov. 2025)
 Upgrades to the tau trigger performance during Run 3 at the ATLAS experiment
