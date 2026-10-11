@@ -10,5 +10,7 @@ title = 'Alex Veltman'
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)']]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
 [params]
   math = true

@@ -1,6 +1,11 @@
 {{ define "main" }}
-   <h1>({{ .Date  | time.Format "2006-01-02"}}) {{ .Title }}</h1>
-   <div class="container">
-   {{ .Content }}
-   </div>
+  {{ if gt .Date (time "0001-01-01") }}
+      <h1>({{ .Date  | time.Format "2006-01-02"}}) {{ .Title }}</h1>
+  {{ else }}
+      <h1>{{ .Title }}</h1>
+  {{ end }}
+
+  <div class="container">
+    {{ .Content }}
+  </div>
 {{ end }}
