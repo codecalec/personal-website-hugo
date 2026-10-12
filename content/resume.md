@@ -13,13 +13,14 @@ The University of Edinburgh, Edinburgh, Scotland | *Sep 2023 - Current (Expected
 - **Thesis Title**: Search for displaced \( \tau_{had} \) production at the ATLAS Experiment
 - **Supervisor**: Prof. Sinead Farrington
 - **ATLAS authorship task**: Building a displaced \( \tau_{had} \) object for Run 3 analyses
-    - Involved retrained a transformer-based neural network to perform signal-background discrimination
+    - Involved training a transformer-based neural network to perform signal-background discrimination
 - ATLAS Early Career Scientist Board institute contact for Edinburgh
 {{< /resume-block >}}
 
 {{< resume-block title="Masters of Science by Research in Physics" >}}
 University of Cape Town, Cape Town, South Africa | *Feb 2022 - Aug 2023*
 - **Thesis**: A search for \(tWZ\) production at the ATLAS experiment [[Link]](https://dev.alexveltman.com/static/research/masters/AlexVeltmanMastersThesis.pdf)
+    - Was the lead analyser on a search for a rare top production mode. Developed a machine-learning based background estimation and implemented the statistical analysis framework.
 - **Supervisor**: Dr. James Keaveney
 - Awarded with distinction
 {{< /resume-block >}}
